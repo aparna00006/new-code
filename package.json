@@ -1,0 +1,24 @@
+{
+  "name": "first-node",
+  "version": "1.0.0",
+  "description": "a node js tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "start-server": "node index.js"
+  },
+  "keywords": [
+    "code",
+    "step"
+  ],
+  "author": "aparna",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "simple-node-logger": "^21.8.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
